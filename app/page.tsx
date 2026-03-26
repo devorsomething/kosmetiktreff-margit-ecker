@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 const PHONE = "+43 664 123 4567"; // ⚠️ Bitte verifizieren
 const ADDRESS = "Bregenz, Vorarlberg"; // ⚠️ Bitte mit echter Adresse ersetzen
@@ -485,6 +486,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      <WhatsAppButton phone="+43 664 890 1234" />
     </div>
   );
 }
