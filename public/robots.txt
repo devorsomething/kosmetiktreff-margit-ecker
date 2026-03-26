@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kosmetiktreff-margit-ecker.at/sitemap.xml
