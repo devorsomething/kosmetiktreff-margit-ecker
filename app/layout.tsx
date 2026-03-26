@@ -7,9 +7,22 @@ export const metadata: Metadata = {
     "Ihr Studio für Kosmetik, Fusspflege und Nagelstudio in Bregenz. Individuelle Behandlungen für Ihr Wohlbefinden – seit Jahren vertrauensvoll.",
   keywords: "Kosmetik, Fusspflege, Nagelstudio, Bregenz, Waxing, Augenbrauen, Geschenkgutschein",
   openGraph: {
-    title: "Kosmetiktreff Margit Ecker | Bregenz",
-    description: "Kosmetik · Fusspflege · Wohlbefinden – Ihr persönliches Studio in Bregenz.",
+    title: "Kosmetiktreff Margit Ecker Bregenz",
+    description: "Kosmetik, Fusspflege & Wellness in Bregenz",
+    images: [
+      {
+        url: '/og?name=Kosmetiktreff%20Margit%20Ecker&tagline=Kosmetik%20%C2%B7%20Fusspflege%20%C2%B7%20Wohlbefinden&color=%23E6E0F0',
+        width: 1200,
+        height: 630,
+      },
+    ],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kosmetiktreff Margit Ecker Bregenz",
+    description: "Kosmetik, Fusspflege & Wellness in Bregenz",
+    images: ['/og'],
   },
 };
 
